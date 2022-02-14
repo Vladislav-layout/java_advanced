@@ -28,6 +28,6 @@ public class Task3_1 {
         array[minInd] = array[maxInd];
         array[maxInd] = temp;
         System.out.println("Массив после: " + Arrays.toString(array));
-        System.out.println("максимальный отрицательный: " + max_negative + "\nминимальный положительный: " + min_positive);
+        System.out.println("максимальный отрицательный: " + max_negative + "\" + "nминимальный положительный: " + min_positive);
     }
 }
